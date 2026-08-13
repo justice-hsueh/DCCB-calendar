@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>竹小兒樂行事曆</title>
+  <style>
+    :root{
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --text:#24303a;
+      --muted:#687583;
+      --accent:#2f6f8f;
+      --accent-soft:#e8f1f6;
+      --line:#dfe6ec;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif;
+      background:linear-gradient(180deg,#eef5f8 0,#f7f9fb 180px,#f7f9fb 100%);
+      color:var(--text);
+    }
+    .wrap{max-width:920px;margin:0 auto;padding:34px 20px 56px}
+    .hero{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:28px 28px 24px;
+      box-shadow:0 8px 24px rgba(40,65,85,.07);
+      margin-bottom:20px;
+    }
+    h1{margin:0 0 8px;font-size:2rem;letter-spacing:.04em}
+    .subtitle{color:var(--muted);font-size:.98rem}
+    .event{
+      display:grid;
+      grid-template-columns:120px 1fr;
+      gap:18px;
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:18px 20px;
+      margin:12px 0;
+      box-shadow:0 4px 14px rgba(40,65,85,.04);
+    }
+    .datebox{
+      background:var(--accent-soft);
+      border-radius:14px;
+      padding:12px;
+      text-align:center;
+      align-self:start;
+    }
+    .date{font-weight:800;color:var(--accent);font-size:1.06rem}
+    .weekday{font-size:.88rem;color:var(--muted);margin-top:4px}
+    .time{font-size:.92rem;color:var(--text);margin-top:6px;font-weight:650}
+    .title{font-size:1.12rem;font-weight:800;margin-top:2px}
+    .location{color:var(--muted);margin-top:8px}
+    .empty{padding:28px;text-align:center;color:var(--muted)}
+    footer{margin-top:28px;text-align:center;color:#8a96a2;font-size:.86rem}
+    @media (max-width:640px){
+      .event{grid-template-columns:1fr;gap:12px}
+      .datebox{text-align:left}
+      h1{font-size:1.65rem}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>竹小兒樂行事曆</h1>
+      <div class="subtitle">DCCB Calendar｜大竹國小兒童樂隊</div>
+    </section>
+
+    <section id="events"></section>
+    <footer>行事內容由竹小兒樂指揮日誌同步更新</footer>
+  </main>
+
+  <script>
+    const weekdays = ['日','一','二','三','四','五','六'];
+
+    function formatDate(dateString){
+      const d = new Date(dateString + 'T00:00:00+08:00');
+      return {
+        md: `${d.getMonth()+1}/${d.getDate()}`,
+        wd: `（${weekdays[d.getDay()]}）`
+      };
+    }
+
+    async function loadEvents(){
+      const box = document.getElementById('events');
+      try{
+        const res = await fetch(`events.json?v=${Date.now()}`);
+        const events = await res.json();
+        events.sort((a,b) => (a.date + (a.time || '23:59')).localeCompare(b.date + (b.time || '23:59')));
+
+        if(!events.length){
+          box.innerHTML = '<div class="empty">目前沒有行事</div>';
+          return;
+        }
+
+        box.innerHTML = events.map(e => {
+          const d = formatDate(e.date);
+          return `
+            <article class="event">
+              <div class="datebox">
+                <div class="date">${d.md}</div>
+                <div class="weekday">${d.wd}</div>
+                ${e.time ? `<div class="time">${e.time}</div>` : `<div class="time">全天</div>`}
+              </div>
+              <div>
+                <div class="title">${e.title}</div>
+                ${e.location ? `<div class="location">地點：${e.location}</div>` : ''}
+              </div>
+            </article>`;
+        }).join('');
+      }catch(err){
+        box.innerHTML = '<div class="empty">行事資料載入失敗，請稍後再試。</div>';
+      }
+    }
+
+    loadEvents();
+  </script>
+</body>
+</html>
