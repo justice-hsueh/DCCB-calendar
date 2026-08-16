@@ -1,7 +1,331 @@
 [
-  {"date":"2026-08-14","time":"14:00","title":"區公所場勘","location":"區公所"},
-  {"date":"2026-08-17","time":"14:00","title":"興仁活動中心場勘","location":"興仁活動中心"},
-  {"date":"2026-08-21","time":"07:30","title":"蘆竹區市政說明會表演","location":"蘆竹區公所三樓禮堂","description":"07:30 集合\n07:50 出發\n08:20 抵達、下樂器\n08:40 彩排\n09:40 表演"},
-  {"date":"2026-08-29","time":"","title":"暑訓成果發表會","location":"興仁活動中心","description":"曲目：\n1. 順其自然\n2. 風的通道\n3. La Cumparsita\n4. 匈牙利舞曲第六號\n5. 僕のこと"},
-  {"date":"2026-08-30","time":"","title":"迎新表演","location":"學校中庭","description":"曲目：\n1. La Cumparsita\n2. 風的通道\n3. 順其自然\n\n參加人員：五、六年級全部＋四年級部分團員\n\n服裝：\n五、六年級：33週年團服＋學校運動短褲\n四年級團員：學校夏季運動服"}
+  {
+    "date": "2026-01-26",
+    "time": "",
+    "title": "寒假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-02-25",
+    "time": "22:00",
+    "title": "舞台排全國賽位子",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-02-26",
+    "time": "12:35",
+    "title": "發演出服",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-03-01",
+    "time": "08:00",
+    "title": "賽前加練",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-03-02",
+    "time": "",
+    "title": "全國賽",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-03-11",
+    "time": "09:00",
+    "title": "台南展演評選",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-04-01",
+    "time": "10:10",
+    "title": "兒童節快閃",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-04-20",
+    "time": "10:00",
+    "title": "文化局場勘",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-04-24",
+    "time": "14:50",
+    "title": "下樂器",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-04-24",
+    "time": "21:00",
+    "title": "發演出服",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-04-30",
+    "time": "",
+    "title": "夏季音樂會-台南3天",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-05-17",
+    "time": "",
+    "title": "校友團-1",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-05-24",
+    "time": "",
+    "title": "校友團-2",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-05-31",
+    "time": "",
+    "title": "校友團-3",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-06-07",
+    "time": "",
+    "title": "校友團-4",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-06-09",
+    "time": "",
+    "title": "提交線上音樂比賽影片",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-06-13",
+    "time": "09:00",
+    "title": "校友團-5",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-06-13",
+    "time": "13:30",
+    "title": "樂隊在校團加練",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-06-14",
+    "time": "",
+    "title": "夏季音樂會-桃園",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-10",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-11",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-12",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-13",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-14",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-14",
+    "time": "14:00",
+    "title": "區公所場勘",
+    "location": "區公所",
+    "description": "[DCCB_SYNC]\n\n"
+  },
+  {
+    "date": "2026-08-17",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-17",
+    "time": "14:00",
+    "title": "興仁活動中心場勘",
+    "location": "興仁活動中心",
+    "description": "[DCCB_SYNC]\n\n"
+  },
+  {
+    "date": "2026-08-18",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-19",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-20",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-21",
+    "time": "07:30",
+    "title": "蘆竹區市政說明會表演",
+    "location": "蘆竹區公所三樓禮堂",
+    "description": "[DCCB_SYNC]\n\n07:30 集合\n07:50 出發\n08:20 抵達、下樂器\n08:40 彩排\n09:40 表演"
+  },
+  {
+    "date": "2026-08-21",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-24",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-25",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-26",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-27",
+    "time": "08:30",
+    "title": "暑假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-29",
+    "time": "",
+    "title": "暑訓成果發表會",
+    "location": "興仁活動中心",
+    "description": "[DCCB_SYNC]\n\n曲目：\n1. 順其自然\n2. 風的通道\n3. La Cumparsita\n4. 匈牙利舞曲第六號\n5. 僕のこと"
+  },
+  {
+    "date": "2026-08-29",
+    "time": "08:00",
+    "title": "暑訓發表會",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-08-30",
+    "time": "",
+    "title": "迎新表演",
+    "location": "學校中庭",
+    "description": "[DCCB_SYNC]\n\n曲目：\n1. La Cumparsita\n2. 風的通道\n3. 順其自然\n\n參加人員：五、六年級全部＋四年級部分團員\n\n服裝：\n五、六年級：33週年團服＋學校運動短褲\n四年級團員：學校夏季運動服"
+  },
+  {
+    "date": "2026-12-05",
+    "time": "",
+    "title": "冬季音樂會",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-01-21",
+    "time": "",
+    "title": "寒假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-01-22",
+    "time": "",
+    "title": "寒假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-01-25",
+    "time": "",
+    "title": "寒假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-01-26",
+    "time": "",
+    "title": "寒假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-01-27",
+    "time": "",
+    "title": "寒假集訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-05-15",
+    "time": "",
+    "title": "夏季音樂會",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2027-05-23",
+    "time": "",
+    "title": "與新市兒樂交流",
+    "location": "",
+    "description": ""
+  }
 ]
