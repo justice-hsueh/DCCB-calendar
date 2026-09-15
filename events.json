@@ -1,5 +1,292 @@
 [
   {
+    "date": "2025-01-06",
+    "time": "",
+    "title": "發打擊報名表",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-01-14",
+    "time": "",
+    "title": "四年級打擊招考",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-03-08",
+    "time": "",
+    "title": "資優鑑定",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-03-08",
+    "time": "13:00",
+    "title": "賽前加練",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-03-11",
+    "time": "",
+    "title": "全國賽",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-03-12",
+    "time": "",
+    "title": "六年級寫心得",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-03-15",
+    "time": "",
+    "title": "私校考試",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-04-17",
+    "time": "",
+    "title": "兩廳院啟售",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-04-26",
+    "time": "10:00",
+    "title": "夏季音樂會-台中",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-04-28",
+    "time": "",
+    "title": "校內啟售",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-05-17",
+    "time": "",
+    "title": "夏季音樂會(桃園)",
+    "location": "",
+    "description": "1.婦女館"
+  },
+  {
+    "date": "2025-08-06",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-07",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-08",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-11",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-12",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-13",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-14",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-15",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-18",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-19",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-20",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-21",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-22",
+    "time": "08:30",
+    "title": "樂隊暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-25",
+    "time": "08:30",
+    "title": "暑訓成果發表會",
+    "location": "興仁里民活動中心",
+    "description": ""
+  },
+  {
+    "date": "2025-08-26",
+    "time": "08:30",
+    "title": "與內湖國小聯合暑訓",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-08-31",
+    "time": "08:30",
+    "title": "迎新演出",
+    "location": "",
+    "description": "8:30 集合彩排\n9:15 搬樂器\n9:50 中庭演出\n10:10 搬樂器回禮堂, 上電梯\n10:30 放學"
+  },
+  {
+    "date": "2025-11-04",
+    "time": "",
+    "title": "發團服",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-11-26",
+    "time": "",
+    "title": "賽前預演",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-11-30",
+    "time": "09:30",
+    "title": "賽前加練",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-02",
+    "time": "",
+    "title": "兒樂市賽(上午)",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-03",
+    "time": "",
+    "title": "打擊市賽(上午)",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-06",
+    "time": "",
+    "title": "聖誕音樂會",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-15",
+    "time": "08:00",
+    "title": "Golden-D段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-16",
+    "time": "08:00",
+    "title": "Golden-D段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-17",
+    "time": "08:00",
+    "title": "Golden-E段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-18",
+    "time": "08:00",
+    "title": "Golden-F段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-19",
+    "time": "08:00",
+    "title": "Golden-G段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-22",
+    "time": "08:00",
+    "title": "Golden-H段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-23",
+    "time": "08:00",
+    "title": "Golden-I段",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2025-12-24",
+    "time": "10:10",
+    "title": "聖誕快閃-五重奏",
+    "location": "",
+    "description": ""
+  },
+  {
     "date": "2026-01-26",
     "time": "",
     "title": "寒假集訓",
@@ -172,7 +459,7 @@
     "time": "14:00",
     "title": "區公所場勘",
     "location": "區公所",
-    "description": "[DCCB_SYNC]\n\n"
+    "description": "[DCCB_SYNC]"
   },
   {
     "date": "2026-08-17",
@@ -193,7 +480,7 @@
     "time": "14:00",
     "title": "興仁活動中心場勘",
     "location": "興仁活動中心",
-    "description": "[DCCB_SYNC]\n\n"
+    "description": "[DCCB_SYNC]"
   },
   {
     "date": "2026-08-18",
@@ -332,6 +619,13 @@
     "date": "2026-09-11",
     "time": "17:30",
     "title": "樂隊後援會家長開會",
+    "location": "",
+    "description": ""
+  },
+  {
+    "date": "2026-09-20",
+    "time": "",
+    "title": "\"匈牙利舞曲\"最後驗收日",
     "location": "",
     "description": ""
   },
